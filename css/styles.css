@@ -8,11 +8,9 @@ body {
 	padding: 20px 0;
 }
 .carousel-item {
-	/* height: 100vh;
-	min-height: 300px; */
-	max-width: 100%;
-	height: 60%;
-	width: 60%;
+	height: 100vh;
+	min-height: 300px;
+	
 }
 
 .display-1{
@@ -49,8 +47,9 @@ body {
 .carousel-inner:before {
 	content: '';
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	/* antes w y h estaban al 100 */
+	width: 50%;
+	height: 50%;
 	top: 0;
 	left: 0;
 	background: rgba(0, 0, 0, 0.7);
