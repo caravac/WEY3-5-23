@@ -38,14 +38,20 @@ body {
 	line-height: 1.9;	
 }
 .carousel-caption-0 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
+	position: relative; 
+	/* top: 50%;
+	left: 50%; */
 	transform: translate(-50%, -50%);
 }
 .texto-caption {
 	font-size: 40px;
 }
+ .btn-i:hover {
+align-items: flex-end;
+box-sizing: border-box;
+align-items: flex-end;
+}
+
 .carousel-inner:before {
 	content: '';
 	position: absolute;
@@ -122,6 +128,10 @@ height: 100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
+	
+}
+.solo {
+	margin-top: 20;
 	
 }
 .historial{
