@@ -124,11 +124,15 @@ padding-bottom: 30px;
 height: 100%;
 }
 
-.card-redes{
-	padding-top: 20px;
-	padding-bottom: 20px;
+.card-redes .card-body-redes .card-title .card-text{
+	height: 200px;
+	overflow: hidden;
+	align-items: center;
 	text-align: center;
-	
+}
+.card-pago{
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 .solo {
 	margin-top: 20;

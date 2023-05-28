@@ -45,6 +45,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#redes">disponibles</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning border" href="#PAGO">PLANOS y PAGO</a>
+              </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#contacto">Contacto</a>
               </li>        
@@ -423,7 +426,7 @@
       <br>
       <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-12">
                 <div class="section-header text-center pb-5">
                     <br>
                     <br>
@@ -435,29 +438,31 @@
           </div>
 
             <div class="row card-redes">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h1 class="card-title">MON BRAVA</h1>
-                  <p class="card-text">WEB</p>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="card h-100">
+                <div class="card-body-redes">
+                  <h1 class="card-title text-center">MON BRAVA</h1>
+                  <br>
+                  <p class="card-text text-center">WEB</p>
                   <a href="#" target="_blank" class="btn btn-dark">Disponibles</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h1 class="card-title">OFICINAS PUERTO MADERO</h1>
-                  <p class="card-text">AVISO</p>
+            <div class="col-sm-12 col-md-4 col lg-4">
+              <div class="card h-100">
+                <div class="card-body-redes">
+                  <h1 class="card-title text-center">OFICINAS PUERTO MADERO</h1>
+                    <p class="card-text text-center">AVISO</p>
                      <a href="#" target="_blank" class="btn btn-dark">Disponibles</a>
                 </div>
               </div>
             </div>
-      <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h1 class="card-title">TORRE DEVOTO</h1>
-          <p class="card-text">AVISO</p>
+      <div class="col-sm-12 col-md-4 col lg-4">
+      <div class="card h-100">
+        <div class="card-body-redes">
+          <h1 class="card-title text-center">TORRE DEVOTO</h1>
+          <br>
+          <p class="card-text text-center">AVISO</p>
              <a href="#" target="_blank" class="btn btn-dark">Disponibles</a>
         </div>
       </div>
@@ -472,6 +477,95 @@
 
  
    <!-- SOCIAL MEDIA TERMINA -->
+
+<!-- planos y pago comienza -->
+<section id="PAGO" class="contacto section-padding">
+  <div class="container mt-5 mb-5">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="section-header text-center pb-1">
+                  <h2>PEDIDO DE PLANOS</h2>
+                  <p>Completa el formulario para solicitar tu plano</p>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="card border-success col-lg-4 mb-4 mr3">
+          <div class="card-body">
+            <h5 class="card-title text-center">VIVIENDAS</h5>
+            <h6 class="card-subtitle mb-2 text-muted text-center">Plano de Planta</h6>
+            <p class="card-text text-center text-success">Descuento 10%</p>
+          </div>
+        </div>
+        <div class="card border-primary col-lg-4 mb-4 mr-3 ">
+          <div class="card-body">
+            <h5 class="card-title text-center">OFICINAS</h5>
+            <h6 class="card-subtitle mb-2 text-muted text-center">Plano de Planta</h6>
+            <p class="card-text text-center text-primary">Descuento 15%</p>
+          </div>
+        </div>
+        <div class="card border-warning col-lg-4 mb-4">
+          <div class="card-body">
+            <h5 class="card-title text-center">LOCALES</h5>
+            <h6 class="card-subtitle mb-2 text-muted text-center">Plano de Planta</h6>
+            <p class="card-text text-center text-warning">Descuento 30%</p>
+          </div>
+        </div>
+      </div>
+   <div class="row sm-0">
+  <div class="col-md-12 p-0 pt-4 pb-4">
+    <form action="#" class="bg-light p-4 m-auto">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mb-3">
+            <input class="form-control" placeholder="Nombre y apellido" required="" type="text">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="mb-3">
+            <input class="form-control" placeholder="Mail" required="" type="email">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="mb-3">
+            <p>Cliente</p>
+            <select class="form-control" required>
+              <option value="Vivienda">Vivienda</option>
+              <option value="Oficina">Oficina</option>
+              <option value="Local">Local</option>
+            </select>
+          </div>
+        </div>
+        
+        <div class="col-3">
+          <div class="mb-3">
+            <p>piso</p><input class="form-control" placeholder="PISO" required="" type="number">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="mb-3">
+            <p>cantidad</p><input class="form-control" placeholder="CANTIDAD" required="" type="number">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="mb-3">
+            <p>A PAGAR</p><input class="form-control" placeholder="TOTAL" required="" type="number">
+          </div>
+        </div>
+          <H5>Detalle de unidad funcional/local solicitado adjuntando el comprobante de pago</H5>
+        <div class="col-md-12">
+          <div class="mb-3">
+            <textarea class="form-control" placeholder="Mensaje" required="" rows="7"></textarea>
+          </div>
+        </div><button class="btn btn-dark btn-lg btn-block mt-3" type="button">Enviar</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</section>
+<!-- planos y pago termina -->
+
 
       <!-- CONTACTO COMIENZO -->
       <section id="contacto" class="contacto section-padding">
