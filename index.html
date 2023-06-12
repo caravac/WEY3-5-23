@@ -479,7 +479,8 @@
    <!-- SOCIAL MEDIA TERMINA -->
 
 <!-- planos y pago comienza -->
-<section id="PAGO" class="contacto section-padding">
+
+<!-- <section id="PAGO" class="contacto section-padding">
   <div class="container mt-5 mb-5">
       <div class="row">
           <div class="col-md-12">
@@ -563,8 +564,117 @@
   </div>
 </div>
 </div>
-</section>
+</section> -->
 <!-- planos y pago termina -->
+
+
+
+
+<!-- ***********************TOMA TRES TARJETAS FORMULARIO PAGO ***************************** -->
+
+<section id="PAGO" class="contacto section-padding">
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center pb-1">
+          <h2>PEDIDO DE PLANOS</h2>
+          <p>Completa el formulario para solicitar tu plano</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card border-success col-lg-4 mb-4 mr3">
+        <div class="card-body">
+          <h5 class="card-title text-center">VIVIENDAS</h5>
+          <h6 class="card-subtitle mb-2 text-muted text-center">Plano de Planta</h6>
+          <p class="card-text text-center text-success">Descuento 10%</p>
+        </div>
+      </div>
+      <div class="card border-primary col-lg-4 mb-4 mr-3">
+        <div class="card-body">
+          <h5 class="card-title text-center">OFICINAS</h5>
+          <h6 class="card-subtitle mb-2 text-muted text-center">Plano de Planta</h6>
+          <p class="card-text text-center text-primary">Descuento 15%</p>
+        </div>
+      </div>
+      <div class="card border-warning col-lg-4 mb-4">
+        <div class="card-body">
+          <h5 class="card-title text-center">LOCALES</h5>
+          <h6 class="card-subtitle mb-2 text-muted text-center">Plano de Planta</h6>
+          <p class="card-text text-center text-warning">Descuento 30%</p>
+        </div>
+      </div>
+      <div>
+        <p class="text-center text-success border flex-center border-dark">VALOR $1900 + IVA</p>
+      </div>
+    </div>
+
+    <!-- FIN TARJETAS Y DESCUENTOS -->
+
+    <!-- EMPIEZO PROCESO PAGO -->
+
+    <div class="row sm-0">
+      <div class="col-md-12 p-0 pt-4 pb-4">
+        <form action="#" class="bg-light p-4 m-auto">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mb-3">
+                <input class="form-control" placeholder="Nombre y apellido" type="text">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="mb-3">
+                <input class="form-control" placeholder="Mail" type="email">
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="mb-3">
+                <label for="">Cliente</label>
+                <select id="tipo_cli" class="form-control cliente" required>
+                  <option value="">--Tipo de unidad--</option>
+                  <option value="vivienda">Vivienda</option>
+                  <option value="oficina">Oficina</option>
+                  <option value="local">Local</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="mb-3">
+                <label for="">Unidad Funcional</label>
+                <input class="form-control piso" id="uf" required="" type="text">
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="mb-3">
+                <label for="">CANTIDAD:</label>
+                <input class="form-control cantidad" id="cant" required="" type="number">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <button type="button" id="calcula">Calcular Total</button>
+          </div>
+          <br><br>
+          <div class="col-3"></div>
+          <label for="clculaTotal" id="resultado" class="form-control bg-warning">Total a pagar: $</label>
+          <br><br>
+          <div class="col-3">
+            <div class="mb-3" id="PESOS">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <br><br>
+    <br>
+  </div>
+</section>
+
+<!-- ***********************TOMA TRES FORMULARIO PAGO ***************************** -->
+
+
 
 
       <!-- CONTACTO COMIENZO -->
