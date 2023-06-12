@@ -65,12 +65,13 @@
   const ValorPlano = 1900;
 
   //DESCUENTOS
+  const Externo = 1
   const Viviendas = 0.1;
   const Oficinas = 0.15;
   const Locales = 0.3;
 
   // DEFINO VARIABLES PARA CALCULO
-  const cantidad = document.querySelector('#cant');
+   const cantidad = document.querySelector('#cant');
   const cliente = document.querySelector('#tipo_cli');
   const calcular = document.querySelector('#calcula');
   const resultado = document.querySelector('#resultado');
@@ -87,7 +88,7 @@
       totalPagar -= totalPagar * Oficinas;
     } else if (cliente.value === 'local') {
       totalPagar -= totalPagar * Locales;
-    }
+    } else (totalPagar);
 
     // RESULTADO
     resultado.innerHTML = "Total a pagar: $" + totalPagar;
