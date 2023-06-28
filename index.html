@@ -11,17 +11,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<!-- NO SE SUBIÓ LA ULTIMA VERSIÓN CON LAS ACTUALIZACIONES - EN GITHUB FALTAN IMAGENES Y LOS ULTIMOS CAMBIOS -->
+
 <body>
-    <!-- barra menu fija -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light col-12">
-      <!-- fixed-top -->
+  
         <div class="container-fluid">
           <div class="col-9 col-md-3">
             <a class="navbar-brand" href="#"><img src="img/weyar-gris.gif" alt="40" width="200" height="70" class="d-inline-block">
             <span class="text-secondary">Developers</a>
             </div>
-              <!-- boton menu      -->
+         
               <button class="navbar-toggler collapsed ms-12" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -75,19 +74,7 @@
         
      <!-- DESPLEGA IMAGENES Y TEXTOS PARA MOSTRAR EN CARROUSEL    -->
 
-    <!-- <div class="carousel-inner">
-        <div class="carousel-item active d-item">
-          <img src="img/menu-00.jpg" class="d-block w-100 d-img" alt="slider-1">
-          <div class="carousel-caption carrousel-caption-0 top-0 mt-5 mb-4 d-flex flex-column justify-content-center align-items-center">
-              <p class="mt-5 fs-3 text-uppercase">
-                  argentina - brasil - estados unidos - uruguay
-              </p>
-              <h1 class="display-1 flex-center text-capitalize">WEYAR</h1>
-              <p class="texto-caption">Life Style Developers</p>   
-          </div>
-      </div> -->
 
-<!-- toma 2 -->
 <div class="carousel-inner">
   <div class="carousel-item active d-item">
     <img src="img/menu-00.jpg" class="d-block w-100 h-auto" alt="slider-1">
@@ -101,8 +88,7 @@
                 <a href="#"><button type="button" class="btn btn-light">Wapp</button></a></div>
     </div>
 </div>
-<!-- </div> -->
-<!-- fin toma 2 -->
+
         <div class="carousel-item d-item">
             <img src="img/menu-1.jpg" class="d-block w-100 d-img" alt="slider-1">
             <div class="carousel-caption top-0 mt-4 mb-">
@@ -173,7 +159,7 @@
             </div>
         </div>
     </div>
-    <!-- carrousel controles -->
+
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -188,7 +174,7 @@
 <br>
 <hr>
 <hr>
-      <!-- TERMINA CARROUSEL IMAGENES -->
+ 
 
       <!-- NOSOTROS COMIENZA -->
       <section id="Nosotros" class="Nosotros section-padding"></section>
@@ -478,100 +464,6 @@
  
    <!-- SOCIAL MEDIA TERMINA -->
 
-<!-- planos y pago comienza -->
-
-<!-- <section id="PAGO" class="contacto section-padding">
-  <div class="container mt-5 mb-5">
-      <div class="row">
-          <div class="col-md-12">
-              <div class="section-header text-center pb-1">
-                  <h2>PEDIDO DE PLANOS</h2>
-                  <p>Completa el formulario para solicitar tu plano</p>
-              </div>
-          </div>
-      </div>
-      <div class="row">
-        <div class="card border-success col-lg-4 mb-4 mr3">
-          <div class="card-body">
-            <h5 class="card-title text-center">VIVIENDAS</h5>
-            <h6 class="card-subtitle mb-2 text-muted text-center">Plano de Planta</h6>
-            <p class="card-text text-center text-success">Descuento 10%</p>
-          </div>
-        </div>
-        <div class="card border-primary col-lg-4 mb-4 mr-3 ">
-          <div class="card-body">
-            <h5 class="card-title text-center">OFICINAS</h5>
-            <h6 class="card-subtitle mb-2 text-muted text-center">Plano de Planta</h6>
-            <p class="card-text text-center text-primary">Descuento 15%</p>
-          </div>
-        </div>
-        <div class="card border-warning col-lg-4 mb-4">
-          <div class="card-body">
-            <h5 class="card-title text-center">LOCALES</h5>
-            <h6 class="card-subtitle mb-2 text-muted text-center">Plano de Planta</h6>
-            <p class="card-text text-center text-warning">Descuento 30%</p>
-          </div>
-        </div>
-      </div>
-   <div class="row sm-0">
-  <div class="col-md-12 p-0 pt-4 pb-4">
-    <form action="#" class="bg-light p-4 m-auto">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="mb-3">
-            <input class="form-control" placeholder="Nombre y apellido" required="" type="text">
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="mb-3">
-            <input class="form-control" placeholder="Mail" required="" type="email">
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="mb-3">
-            <p>Cliente</p>
-            <select class="form-control" required>
-              <option value="Vivienda">Vivienda</option>
-              <option value="Oficina">Oficina</option>
-              <option value="Local">Local</option>
-            </select>
-          </div>
-        </div>
-        
-        <div class="col-3">
-          <div class="mb-3">
-            <p>piso</p><input class="form-control" placeholder="PISO" required="" type="number">
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="mb-3">
-            <p>cantidad</p><input class="form-control" placeholder="CANTIDAD" required="" type="number">
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="mb-3">
-            <p>A PAGAR</p><input class="form-control" placeholder="TOTAL" required="" type="number">
-          </div>
-        </div>
-          <H5>Detalle de unidad funcional/local solicitado adjuntando el comprobante de pago</H5>
-        <div class="col-md-12">
-          <div class="mb-3">
-            <textarea class="form-control" placeholder="Mensaje" required="" rows="7"></textarea>
-          </div>
-        </div><button class="btn btn-dark btn-lg btn-block mt-3" type="button">Enviar</button>
-      </div>
-    </form>
-  </div>
-</div>
-</div>
-</section> -->
-<!-- planos y pago termina -->
-
-
-
-
-<!-- ***********************TOMA TRES TARJETAS FORMULARIO PAGO ***************************** -->
-
 <section id="PAGO" class="contacto section-padding">
   <div class="container mt-5 mb-5">
     <div class="row">
@@ -675,9 +567,6 @@
     <br>
   </div>
 </section>
-
-<!-- ***********************TOMA TRES FORMULARIO PAGO ***************************** -->
-
 
 
 
